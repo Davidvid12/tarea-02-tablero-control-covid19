@@ -23,7 +23,7 @@ El tablero presentará los datos publicados por el Ministerio de Salud de Costa 
 En la dirección [https://geoprocesamiento-2020i.github.io/tablero-control-covid19-cr/](https://geoprocesamiento-2020i.github.io/tablero-control-covid19-cr/) (con código fuente en [https://github.com/geoprocesamiento-2020i/tablero-control-covid19-cr](https://github.com/geoprocesamiento-2020i/tablero-control-covid19-cr)) hay un tablero que puede utilizar como punto de partida para la tarea y que puede bifurcar y clonar. Este tablero utiliza los datos del Ministerio de Salud descargados en [https://github.com/geoprocesamiento-2020i/datos/tree/master/covid19/ms](https://github.com/geoprocesamiento-2020i/datos/tree/master/covid19/ms).
 
 ## Fecha de entrega y entregables
-La fecha límite de entrega de este laboratorio es el **lunes 13 de julio de 2020**. **NO SE ACEPTARÁN TAREAS ENTREGADAS DESPUÉS DE ESA FECHA**. Debe enviarle al profesor por correo electrónico la dirección del sitio en GitHub Pages resultante.
+La fecha límite de entrega de este laboratorio es el **jueves 16 de julio de 2020**. **NO SE ACEPTARÁN TAREAS ENTREGADAS DESPUÉS DE ESA FECHA**. Debe enviarle al profesor por correo electrónico la dirección del sitio en GitHub Pages resultante.
 
 La tarea puede realizarse en grupos de un máximo de tres estudiantes. Por favor copie el mensaje de correo a las direcciones de todos los integrantes del grupo.
 
@@ -31,6 +31,7 @@ La tarea puede realizarse en grupos de un máximo de tres estudiantes. Por favor
 Se recomienda leer el material preparado por el profesor para las lecciones y consultar la documentación y tutoriales de los paquetes de R que se utilizarán.
 
 ## Trabajo a realizar
+### Obligatorio
 Con los datos de casos de COVID-19 publicados por el Ministerio de Salud y la funcionalidad brindada por el paquete ```flexdashboard```, y otros, elabore un tablero de control con los siguientes componentes (el valor porcentual de cada uno en la nota final de la tarea se muestra entre paréntesis):
 
 Cinco páginas (20% cada una):
@@ -55,5 +56,30 @@ Cinco páginas (20% cada una):
     5.1. (5%) **Indicadores (_valueboxes_)** de total de casos fallecidos, mujeres, hombres, adultos, mayores y menores. Cada indicador, además de su valor, debe desplegar el cambio con respecto al día anterior (ej. +20, -15) y el porcentaje que representa con respecto al total correspondiente. Además, cada indicador debe tener un color y un ícono adecuado.  
     5.2. (10%) **Mapa** de casos fallecidos por cantón. El mapa debe mostrar la cantidad de casos en cada cantón por medio de una rampa de colores. Debe tener leyenda, un control de capas y una o más capas base.  
     5.3. (5%) **Gráfico de barras** que muestre los 10 cantones con más casos fallecidos. El gráfico debe estar ordenado por cantidad de casos, y mostrar el cada barra el nombre del cantón correspondiente. 
+    
+    
+### Opcional
+Valor: 20% adicional.
 
-Procure ser consistente en el uso de los colores y de los estilos en general.
+Utilice los datos publicados por el Ministerio de Salud a nivel de distrito para generar un [mapa de calor (_heat map_)](https://en.wikipedia.org/wiki/Heat_map) de los casos activos de COVID-19 en Costa Rica como el que se muestra en las siguientes figuras:
+
+
+![](img/mapa_calor_covid19_cr_03.png)  
+
+
+
+![](img/mapa_calor_covid19_cr_02.png)  
+
+
+
+![](img/mapa_calor_covid19_cr_01.png)  
+
+
+Puede utilizar los datos de distritos procesados en el código fuente que se adjunta a este documento.
+
+El mapa resultante debe tener una o más capas base, la capa del mapa de calor y cualquier otra capa que considere útil. Agregue los controles que considere necesarios.
+
+## Recomendaciones generales
+1. Finalice primero las secciones obligatorias y luego, si tiene tiempo, desarrolle la parte opcional.
+2. Suba constantemente sus avances a su repositorio en GitHub y compruebe que cada avance funcione como espera. **No espere hasta el final para subir el trabajo**.
+3. Procure ser consistente en el uso de los colores y de los estilos en general.
